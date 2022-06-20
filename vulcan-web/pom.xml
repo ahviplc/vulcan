@@ -25,13 +25,14 @@
 
     <dependencies>
 
-        <!--引入公用工具类模块-->
+        <!-- 这个可以隐掉 也可以找到 -->
+        <!-- 引入公用工具类模块 -->
         <dependency>
             <groupId>com.lc.vulcan</groupId>
             <artifactId>vulcan-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-        
+
     </dependencies>
 
     <build>

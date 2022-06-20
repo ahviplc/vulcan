@@ -4,6 +4,9 @@
 
 > 一个 Spring Boot 多模块项目
 
+> vulcan: vulcan:一个 Spring Boot 多模块项目
+> https://gitee.com/ahviplc/vulcan
+
 # 一些链接
 
 ```markdown
