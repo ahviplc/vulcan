@@ -10,10 +10,10 @@
     </parent>
 
     <groupId>com.lc.vulcan</groupId>
-    <artifactId>vulcan-common</artifactId>
+    <artifactId>vulcan-beans</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>vulcan-common</name>
-    <description>vulcan-common</description>
+    <name>vulcan-beans</name>
+    <description>vulcan-beans</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -26,6 +26,12 @@
     </properties>
 
     <dependencies>
+
+        <!-- AOP 必须的依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
 
     </dependencies>
 

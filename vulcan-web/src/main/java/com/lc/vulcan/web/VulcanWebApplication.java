@@ -5,9 +5,13 @@ import cn.hutool.log.StaticLog;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {
+		"com.lc.vulcan.web.controller",
+		"com.lc.vulcan.beans"})
 public class VulcanWebApplication {
 
 	public static void main(String[] args) {
