@@ -28,7 +28,7 @@ public class myRestController {
 	public ResultBody ping() {
 		Console.log("{} ping ... pong ...", DateUtil.now());
 		// 故意创造一个异常
-		Integer.valueOf("ssss");
+		// Integer.valueOf("ssss");
 		return ResultBody.success(VulcanConstants.PONG);
 	}
 }

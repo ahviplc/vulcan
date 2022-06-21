@@ -30,14 +30,14 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <!-- maven 编译时的编码 -->
-        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
         <!-- 其他三方依赖版本 -->
         <hutool.version>5.8.3</hutool.version>
         <lombok.version>1.18.16</lombok.version>
     </properties>
 
     <dependencies>
+
+        <!-- 在此引入的包可以渗透到子模块项目 -->
 
         <!-- lombok -->
         <dependency>
