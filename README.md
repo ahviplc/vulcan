@@ -51,6 +51,15 @@ http://localhost:9511/api/ping
 *
 ```
 
+# 项目目录
+
+- vulcan 是一个 Spring Boot 多模块项目.
+- vulcan-web：提供web端API接口服务
+- vulcan-common：公共模块
+- vulcan-utils: 是常用工具类 （`待做`）
+- vulcan-docs: 是一些文档文件夹 （`待做`）
+- 其他未完待续
+
 # Getting Started
 
 ### Reference Documentation
