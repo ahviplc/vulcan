@@ -21,9 +21,17 @@ https://gitee.com/zhongfucheng/austin/tree/master
 
 SpringBoot搭建多模块项目_指尖听戏的博客-CSDN博客_springboot多模块项目
 https://blog.csdn.net/qq_38140292/article/details/118926156
+
+Java Cmd运行Jar出现乱码的解决方案_java_脚本之家
+https://www.jb51.net/article/222386.htm
 ```
 
 # 启动我
+
+`win下,打开cmd,输入以下指令 将cmd的编码为UTF-8编码`
+> chcp 65001
+
+`打包和运行`
 
 ```markdown
 1. 打包   
