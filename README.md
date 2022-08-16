@@ -16,7 +16,10 @@
 
 > 一个 Spring Boot 多模块项目
 
-> vulcan: vulcan:一个 Spring Boot 多模块项目
+> vulcan: vulcan:一个 Spring Boot 多模块项目 | 开发模板项目
+
+> https://github.com/ahviplc/vulcan.git
+
 > https://gitee.com/ahviplc/vulcan
 
 # 一些链接
